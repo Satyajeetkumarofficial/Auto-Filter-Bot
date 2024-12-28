@@ -108,8 +108,8 @@ SPELL_CHECK = is_enabled("SPELL_CHECK", True)
 SHORTLINK = is_enabled('SHORTLINK', False)
 
 #premium info
-PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'sampleupi@upi')
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://i.postimg.cc/hvddRvTH/Google-Pay-QR.png')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'satyajeetkumar4348@okhdfcbank')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
