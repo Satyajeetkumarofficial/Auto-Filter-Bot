@@ -52,7 +52,7 @@ I can't find the <b>{}</b> in my database! 🥲
 📀 RunTime: {runtime} Minutes
 
 🗣 Requested by: {message.from_user.mention}
-©️ Powered by: <b>{message.chat.title}</b>"""
+©️ Powered by: <b>{message.chat.title.mention}</b>"""
 
     FILE_CAPTION = """<i>{file_name}</i>
     ‣ ʙᴏᴛ : <a href=https://t.me/{}>{}</a>
